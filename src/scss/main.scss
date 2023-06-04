@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Nunito:wght@300&family=Old+Standard+TT&family=Roboto+Mono:wght@100&family=Ubuntu&display=swap");
+
+
+// Variables
+:root {
+  --primary-color: hsl(180, 29%, 50%);
+  --background-color: hsl(180, 52%, 96%);
+  --filter-table: hsl(180, 31%, 95%);
+  --dark-greyish: hsl(180, 8%, 52%);
+  --very-dark-greyish: hsl(180, 14%, 20%);
+}
+
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  background-color: var(--background-color);
+}
+
